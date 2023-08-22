@@ -1,5 +1,8 @@
 # PHASE-LOCK-LOOP (PLL) DESIGN-
 
+### Problem statement
+8x PLL Clock Multiplier PLL Design with an input frequency range of 5Mhz to 12.5Mhz and output frequency range of 40Mhz to 100Mhz, giving an 8x multiplied clock at ~50% duty cycle on tt corner at room temperature. 
+
 ##  PLL Theory and MY design specification 
 
 PLL is a control system implemented using an analog circuit, which is used in many applications like, FM modulation and demodulation circuits, motor speed controls and tracking filters, frequency shifting decodes for demodulation carrier frequencies, time to digital converters, Jitter reduction, skew suppression, clock recovery, to get a precise clock signal without frequency or phase noise. PLL actually mimics the reference means to have the same or a multiple of the reference frequency and a constant phase difference with it. In this workshop, our focus was to design a PLL for clock signal operations in different SoCs and ICs. PLL uses a Voltage Controlled Oscillator and gives an output that has superior spectral purity nearly equal to that of Quartz Crystal.
