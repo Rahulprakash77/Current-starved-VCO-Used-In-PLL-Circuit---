@@ -1,4 +1,5 @@
 # PHASE-LOCK-LOOP (PLL) DESIGN-
+i choose to design pll beacause their are non-counting uses of pll but this one is not fully optimized ,we can say this is just simplr pll model to understand pll working and all
 
 ### Problem statement
 8x PLL Clock Multiplier PLL Design with an input frequency range of 5Mhz to 12.5Mhz and output frequency range of 40Mhz to 100Mhz, giving an 8x multiplied clock at ~50% duty cycle on tt corner at room temperature. 
