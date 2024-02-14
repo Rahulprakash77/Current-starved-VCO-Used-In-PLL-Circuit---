@@ -46,7 +46,7 @@ The main issue with the charge pump is charge leakage, it keeps charging the cap
 ![lpf](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/e2057faf-2cfa-4651-838a-3cd027ada62d)
 
 
-## (4) Voltage Controlled Oscillator
+## (4) Voltage Controlled Oscillator ( current starved VCO )
 
 VCO is the heart of PLL and it generates the desired high-frequency clock output. Voltage-controlled oscillators are the actual parts that produce alternating digital clock signals. The most common one is the Ring oscillator. It contains an odd number of inverters and flips the output. So, VCO can be implemented using simple inverters. It is necessary to design this VCO such that the range of output frequency we want for the PLL is within the range of frequency the VCO can produce properly. The frequency of this clock signal can be controlled by the input voltage. The frequency depends on delay and delay depends on the current supplied. The LPF output serves as a VCO control signal. Current sources are used at the top and the bottom with the Vctrl voltage to control the ring oscillator. An analog signal is produced by the VCO and its amplitude is proportional to the LPF output amplitude.
 ![vco](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/7f449d5d-1013-4fba-888f-c886dec5378e)
