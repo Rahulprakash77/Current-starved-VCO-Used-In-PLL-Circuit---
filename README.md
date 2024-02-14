@@ -1,5 +1,5 @@
 # PHASE-LOCK-LOOP (PLL) DESIGN-
-i choose to design pll beacause their are non-counting uses of pll but this one is not fully optimized ,we can say this is just simplr pll model to understand pll working and all
+I choosen to design pll beacause their are non-counting uses of pll but this one is not fully optimized ,we can say this is just simpal pll model to understand pll working and all.
 
 ### Problem statement
 8x PLL Clock Multiplier PLL Design with an input frequency range of 5Mhz to 12.5Mhz and output frequency range of 40Mhz to 100Mhz, giving an 8x multiplied clock at ~50% duty cycle on tt corner at room temperature. 
@@ -73,7 +73,7 @@ A frequency divider is used to convert the whole system into a frequency multipl
 ![Untitled](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/6c7220ea-5853-4f40-afd9-bd7d88e5ac70)
 
 
-Design Flow
+#### Design Flow
 
     Specifications of the IC
     SPICE level circuit development
