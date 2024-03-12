@@ -1,4 +1,4 @@
-# PHASE-LOCK-LOOP (PLL) DESIGN-
+#  Current starved VCO ( Used In PLL Circuit -  )
 I choosen to design pll beacause their are non-counting uses of pll but this one is not fully optimized ,we can say this is just simpal pll model to understand pll working and all.
 
 ### Problem statement
@@ -101,8 +101,8 @@ The transister level design of Phase Frequency Detector, Charge Pump, and Voltag
 
 
 ### Extra Reference Material
-    i have followed these two reference paper ### ( https://www.eecis.udel.edu/~vsaxena/courses/ece504/Handouts/Razavi1996_PLL_IEEExplore.pdf)
-    ### (https://ieeexplore.ieee.org/document/7755299)
+    i have followed these two reference paper  ( https://www.eecis.udel.edu/~vsaxena/courses/ece504/Handouts/Razavi1996_PLL_IEEExplore.pdf)
+     (https://ieeexplore.ieee.org/document/7755299)
     Analog IC design By Razavi 
     analog ic design by gray and Hust
     NPTEL Course on Analog IC Design by Nagendra Krishnapura
