@@ -1,8 +1,10 @@
 #  Current starved VCO ( Used In PLL Circuit -  )
 This project focuses on the design and implementation of a Current Starved Voltage Controlled Oscillator (VCO) for use in a Phase-Locked Loop (PLL) circuit. The VCO plays a crucial role in generating the output frequency, which is locked to a reference signal, making it essential for applications requiring stable and precise frequency synthesis.
+                                         ![image](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/39722c55-f4c7-493c-b3a1-d876c60e0d18)
 
 ### Why this project is important ?
 This project is important because the Voltage Controlled Oscillator (VCO) is a fundamental building block in many electronic systems, particularly in Phase-Locked Loops (PLLs), where it serves as the frequency generator. A Current Starved VCO offers advantages like low power consumption, improved noise performance, and simplified circuit design compared to other types of VCOs. Understanding and optimizing the performance of the Current Starved VCO can lead to advancements in various fields such as wireless communications, radar systems, and frequency synthesizers. Additionally, this project provides hands-on experience in analog circuit design, simulation, and optimization, which are valuable skills for electronics engineers. Finally, by exploring the intricacies of PLL circuits, this project offers insights into frequency stability, phase noise, and signal synchronization, which are critical for many modern electronic devices.
+      
 
 ### Final Problem statement
 8x PLL Clock Multiplier PLL Design with an input frequency range of 5Mhz to 12.5Mhz and output frequency range of 40Mhz to 100Mhz, giving an 8x multiplied clock at ~50% duty cycle on tt corner at room temperature. 
@@ -52,7 +54,8 @@ The main issue with the charge pump is charge leakage, it keeps charging the cap
 ## (4) Voltage Controlled Oscillator ( current starved VCO )
 
 VCO is the heart of PLL and it generates the desired high-frequency clock output. Voltage-controlled oscillators are the actual parts that produce alternating digital clock signals. The most common one is the Ring oscillator. It contains an odd number of inverters and flips the output. So, VCO can be implemented using simple inverters. It is necessary to design this VCO such that the range of output frequency we want for the PLL is within the range of frequency the VCO can produce properly. The frequency of this clock signal can be controlled by the input voltage. The frequency depends on delay and delay depends on the current supplied. The LPF output serves as a VCO control signal. Current sources are used at the top and the bottom with the Vctrl voltage to control the ring oscillator. An analog signal is produced by the VCO and its amplitude is proportional to the LPF output amplitude.
-![vco](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/7f449d5d-1013-4fba-888f-c886dec5378e)
+                   ![image](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/e90dc239-b375-47b0-ab9b-7600a98f0921)
+
 
 
 ## (5) Frequency Divider
@@ -97,22 +100,22 @@ The transister level design of Phase Frequency Detector, Charge Pump, and Voltag
 
 ![cp](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/dc608e85-0bfb-4e6d-91e1-dec3b7386f02)
 
-![vco](https://github.com/Rahulprakash77/PHASE-LOCK-LOOP-PLL-DESIGN-/assets/130161648/5c01c40f-5af7-46af-b648-f7a4e28095e0)
+
+##  Extra Reference Materialy
+
+I have followed these two reference paper  ( https://www.eecis.udel.edu/~vsaxena/courses/ece504/Handouts/Razavi1996_PLL_IEEExplore.pdf)
+     (https://ieeexplore.ieee.org/document/7755299),
+    Analog IC design By Razavi ,
+    Analog ic design by gray and Hust,
+    NPTEL Course on Analog IC Design by Nagendra Krishnapura,
+    NPTEL Course on RF Integrated Circuits by Shouri Chatterjee,
+    An Improved Performance Ring VCO: Analysis and Design,
+    A Novel Phase Frequency Detector for a High-Frequency PLL Design,
+    A pA-leakage CMOS charge pump for low-supply PLLs,
+    A simple and high performance charge pump based on the self-cascode transistor,
+    Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop.
 
 
 
 
-
-### Extra Reference Material
-    i have followed these two reference paper  ( https://www.eecis.udel.edu/~vsaxena/courses/ece504/Handouts/Razavi1996_PLL_IEEExplore.pdf)
-     (https://ieeexplore.ieee.org/document/7755299)
-    Analog IC design By Razavi 
-    analog ic design by gray and Hust
-    NPTEL Course on Analog IC Design by Nagendra Krishnapura
-    NPTEL Course on RF Integrated Circuits by Shouri Chatterjee
-    An Improved Performance Ring VCO: Analysis and Design
-    A Novel Phase Frequency Detector for a High-Frequency PLL Design
-    A pA-leakage CMOS charge pump for low-supply PLLs
-    A simple and high performance charge pump based on the self-cascode transistor
-    Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop
     
