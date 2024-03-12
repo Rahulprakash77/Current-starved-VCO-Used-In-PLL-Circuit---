@@ -1,7 +1,10 @@
 #  Current starved VCO ( Used In PLL Circuit -  )
-I choosen to design pll beacause their are non-counting uses of pll but this one is not fully optimized ,we can say this is just simpal pll model to understand pll working and all.
+This project focuses on the design and implementation of a Current Starved Voltage Controlled Oscillator (VCO) for use in a Phase-Locked Loop (PLL) circuit. The VCO plays a crucial role in generating the output frequency, which is locked to a reference signal, making it essential for applications requiring stable and precise frequency synthesis.
 
-### Problem statement
+### Why this project is important ?
+This project is important because the Voltage Controlled Oscillator (VCO) is a fundamental building block in many electronic systems, particularly in Phase-Locked Loops (PLLs), where it serves as the frequency generator. A Current Starved VCO offers advantages like low power consumption, improved noise performance, and simplified circuit design compared to other types of VCOs. Understanding and optimizing the performance of the Current Starved VCO can lead to advancements in various fields such as wireless communications, radar systems, and frequency synthesizers. Additionally, this project provides hands-on experience in analog circuit design, simulation, and optimization, which are valuable skills for electronics engineers. Finally, by exploring the intricacies of PLL circuits, this project offers insights into frequency stability, phase noise, and signal synchronization, which are critical for many modern electronic devices.
+
+### Final Problem statement
 8x PLL Clock Multiplier PLL Design with an input frequency range of 5Mhz to 12.5Mhz and output frequency range of 40Mhz to 100Mhz, giving an 8x multiplied clock at ~50% duty cycle on tt corner at room temperature. 
 
 ##  PLL Theory and MY design specification 
